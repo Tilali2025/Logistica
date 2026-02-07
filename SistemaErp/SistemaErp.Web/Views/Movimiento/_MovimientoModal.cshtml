@@ -1,0 +1,127 @@
+﻿@model SistemaErp.Dominio.Entidades.Movimiento
+
+<div class="modal fade" id="movimientoModal" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+
+            @using (Html.BeginForm("Guardar", "Movimiento", FormMethod.Post, new { id = "formMovimiento" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <input type="hidden"
+                       name="EsEdicion"
+                       value="@(string.IsNullOrEmpty(Model.CodCia) ? "0" : "1")" />
+
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        @(string.IsNullOrEmpty(Model.CodCia) ? "Nuevo Movimiento" : "Actualizar Movimiento")
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <div class="col-md-3">
+                            <label class="form-label">Código Compañía</label>
+                            <input class="form-control"
+                                   name="CodCia"
+                                   value="@Model.CodCia"
+                                   maxlength="5"
+                                   placeholder="C0001"
+                                   required />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Compañía Venta</label>
+                            <input class="form-control"
+                                   name="CompaniaVenta3"
+                                   value="@Model.CompaniaVenta3"
+                                   required />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Almacén Venta</label>
+                            <input class="form-control"
+                                   name="AlmacenVenta"
+                                   value="@Model.AlmacenVenta"
+                                   required />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Tipo Movimiento</label>
+                            <input class="form-control"
+                                   name="TipoMovimiento"
+                                   value="@Model.TipoMovimiento"
+                                   required />
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-3">
+                            <label class="form-label">Fecha Transacción</label>
+                            <input type="date"
+                                   class="form-control"
+                                   name="FechaTransaccion"
+                                   value="@(Model.FechaTransaccion == DateTime.MinValue ? "" : Model.FechaTransaccion.ToString("yyyy-MM-dd"))"
+                                   required />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Tipo Documento</label>
+                            <input class="form-control" name="TipoDocumento" value="@Model.TipoDocumento" />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Nro Documento</label>
+                            <input class="form-control" name="NroDocumento" value="@Model.NroDocumento" />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Proveedor</label>
+                            <input class="form-control" name="Proveedor" value="@Model.Proveedor" />
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-3">
+                            <label class="form-label">Código Ítem</label>
+                            <input class="form-control" name="CodItem2" value="@Model.CodItem2" required />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Cantidad</label>
+                            <input type="number" class="form-control" name="Cantidad" value="@Model.Cantidad" min="1" required />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Almacén Destino</label>
+                            <input class="form-control" name="AlmacenDestino" value="@Model.AlmacenDestino" />
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-2">
+                            <label class="form-label">Doc Ref 1</label>
+                            <input class="form-control" name="DocRef1" value="@Model.DocRef1" />
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label">Doc Ref 2</label>
+                            <input class="form-control" name="DocRef2" value="@Model.DocRef2" />
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label">Doc Ref 3</label>
+                            <input class="form-control" name="DocRef3" value="@Model.DocRef3" />
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label">Doc Ref 4</label>
+                            <input class="form-control" name="DocRef4" value="@Model.DocRef4" />
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label">Doc Ref 5</label>
+                            <input class="form-control" name="DocRef5" value="@Model.DocRef5" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">
+                        @(string.IsNullOrEmpty(Model.CodCia) ? "Registrar" : "Actualizar")
+                    </button>
+                </div>
+            }
+        </div>
+    </div>
+</div>

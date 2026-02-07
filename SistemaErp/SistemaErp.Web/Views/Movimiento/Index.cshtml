@@ -1,0 +1,102 @@
+﻿@model List<SistemaErp.Dominio.Entidades.Movimiento>
+
+@{
+    ViewData["Title"] = "Movimiento de Almacén";
+}
+
+<h3 class="mb-3">Listado de Movimientos</h3>
+
+<button class="btn btn-primary mb-3" onclick="abrirModal('')">
+    Nuevo Movimiento
+</button>
+
+<form method="get" asp-action="Index" class="row g-3 mb-4">
+    <div class="col-md-3">
+        <label class="form-label">Buscar por</label>
+        <select name="campo" class="form-select">
+            <option value="">[Todos... ]</option>
+            <option value="ALMACEN_VENTA">Almacén Venta</option>
+            <option value="ALMACEN_DESTINO">Almacén Destino</option>
+            <option value="PROVEEDOR">Proveedor</option>
+        </select>
+    </div>
+
+    <div class="col-md-3">
+        <label class="form-label">Ingrese datos a buscar</label>
+        <input type="text" name="texto" class="form-control" />
+    </div>
+
+    <div class="col-md-2">
+        <label class="form-label">Desde</label>
+        <input type="date" name="fechaInicio" class="form-control" />
+    </div>
+
+    <div class="col-md-2">
+        <label class="form-label">Hasta</label>
+        <input type="date" name="fechaFin" class="form-control" />
+    </div>
+
+    <div class="col-md-2 d-flex align-items-end">
+        <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+    </div>
+</form>
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th style="display:none;">CodCia</th>
+            <th>Compañía Venta</th>
+            <th>Almacén Venta</th>
+            <th>Almacén Destino</th>
+            <th>Tipo Movimiento</th>
+            <th>Tipo Documento</th>
+            <th>Número</th>
+            <th>Proveedor</th>
+            <th style="width:150px;">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="display:none;">@item.CodCia</td>
+                <td>@item.CompaniaVenta3</td>
+                <td>@item.AlmacenVenta</td>
+                <td>@item.AlmacenDestino</td>
+                <td>@item.TipoMovimiento</td>
+                <td>@item.TipoDocumento</td>
+                <td>@item.NroDocumento</td>
+                <td>@item.Proveedor</td>
+<td>
+                    <button class="btn btn-sm btn-warning"
+                            type="button"
+                            data-codcia="@item.CodCia"
+                            onclick="abrirModal(this)">
+                        Editar
+                    </button>
+
+                    <button class="btn btn-sm btn-danger"
+                            type="button"
+                            data-codcia="@item.CodCia"
+                            onclick="eliminarModal(this)">
+                        Eliminar
+                    </button>
+
+</td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div id="modalContainer"></div>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index:1100">
+    <div id="toastContainer"></div>
+</div>
+
+@Html.AntiForgeryToken()
+
+@section Scripts {
+    <script src="~/js/movimiento/movimiento.js"></script>
+}

@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E0E4620-877A-41A7-BE8B-86B2AB37AE8B}|SistemaErp.Web\\SistemaErp.Web.csproj|c:\\users\\usuario\\desktop\\sistemaerp\\sistemaerp.web\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E0E4620-877A-41A7-BE8B-86B2AB37AE8B}|SistemaErp.Web\\SistemaErp.Web.csproj|solutionrelative:sistemaerp.web\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF28C4A-3498-4D6B-B2D0-BA8501C7DC13}|SistemaErp.Infrastructura\\SistemaErp.Infrastructura.csproj|c:\\users\\usuario\\desktop\\sistemaerp\\sistemaerp.infrastructura\\repositorio\\movimientorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF28C4A-3498-4D6B-B2D0-BA8501C7DC13}|SistemaErp.Infrastructura\\SistemaErp.Infrastructura.csproj|solutionrelative:sistemaerp.infrastructura\\repositorio\\movimientorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E0E4620-877A-41A7-BE8B-86B2AB37AE8B}|SistemaErp.Web\\SistemaErp.Web.csproj|c:\\users\\usuario\\desktop\\sistemaerp\\sistemaerp.web\\wwwroot\\js\\movimiento\\movimiento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5E0E4620-877A-41A7-BE8B-86B2AB37AE8B}|SistemaErp.Web\\SistemaErp.Web.csproj|solutionrelative:sistemaerp.web\\wwwroot\\js\\movimiento\\movimiento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E0E4620-877A-41A7-BE8B-86B2AB37AE8B}|SistemaErp.Web\\SistemaErp.Web.csproj|c:\\users\\usuario\\desktop\\sistemaerp\\sistemaerp.web\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E0E4620-877A-41A7-BE8B-86B2AB37AE8B}|SistemaErp.Web\\SistemaErp.Web.csproj|solutionrelative:sistemaerp.web\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E0E4620-877A-41A7-BE8B-86B2AB37AE8B}|SistemaErp.Web\\SistemaErp.Web.csproj|c:\\users\\usuario\\desktop\\sistemaerp\\sistemaerp.web\\views\\movimiento\\_movimientomodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E0E4620-877A-41A7-BE8B-86B2AB37AE8B}|SistemaErp.Web\\SistemaErp.Web.csproj|solutionrelative:sistemaerp.web\\views\\movimiento\\_movimientomodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimientoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Infrastructura\\Repositorio\\MovimientoRepositorio.cs",
+              "RelativeDocumentMoniker": "SistemaErp.Infrastructura\\Repositorio\\MovimientoRepositorio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Infrastructura\\Repositorio\\MovimientoRepositorio.cs",
+              "RelativeToolTip": "SistemaErp.Infrastructura\\Repositorio\\MovimientoRepositorio.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAAJgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T00:50:05.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "movimiento.js",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Web\\wwwroot\\js\\movimiento\\movimiento.js",
+              "RelativeDocumentMoniker": "SistemaErp.Web\\wwwroot\\js\\movimiento\\movimiento.js",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Web\\wwwroot\\js\\movimiento\\movimiento.js",
+              "RelativeToolTip": "SistemaErp.Web\\wwwroot\\js\\movimiento\\movimiento.js",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-06T20:20:54.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Web\\Views\\Movimiento\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaErp.Web\\Views\\Movimiento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Web\\Views\\Movimiento\\Index.cshtml",
+              "RelativeToolTip": "SistemaErp.Web\\Views\\Movimiento\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAEUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T17:52:34.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_MovimientoModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Web\\Views\\Movimiento\\_MovimientoModal.cshtml",
+              "RelativeDocumentMoniker": "SistemaErp.Web\\Views\\Movimiento\\_MovimientoModal.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Web\\Views\\Movimiento\\_MovimientoModal.cshtml",
+              "RelativeToolTip": "SistemaErp.Web\\Views\\Movimiento\\_MovimientoModal.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T17:37:33.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovimientoController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Web\\Controllers\\MovimientoController.cs",
+              "RelativeDocumentMoniker": "SistemaErp.Web\\Controllers\\MovimientoController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\SistemaErp\\SistemaErp.Web\\Controllers\\MovimientoController.cs",
+              "RelativeToolTip": "SistemaErp.Web\\Controllers\\MovimientoController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:33:56.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SistemaErp.Aplicacion/1.0.0": {
+        "dependencies": {
+          "SistemaErp.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "SistemaErp.Aplicacion.dll": {}
+        }
+      },
+      "SistemaErp.Dominio/1.0.0": {
+        "runtime": {
+          "SistemaErp.Dominio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaErp.Aplicacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaErp.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
